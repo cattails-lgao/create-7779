@@ -176,7 +176,7 @@ async function init() {
 
     // 复制或者写文件到目标目录
     const files = fs.readdirSync(templateDir);
-    for (const file of files.filter((f) => f !== "package.json")) {
+    for (const file of files) {
       write(file);
     }
 

@@ -1,0 +1,5 @@
+.sideBar {
+  width: $side_bar_width;
+  height: calc(100vh - $header_height);
+  top: $header_height;
+}

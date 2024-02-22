@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-starter",
+  "name": "react-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,20 +7,53 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.12.2",
+    "axios": "^1.6.2",
+    "immer": "^10.0.3",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.8.1",
+    "qs": "^6.11.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.0",
+    "sort-by": "^1.2.0",
+    "three": "^0.160.0",
+    "zustand": "^4.4.7"
   },
   "devDependencies": {
-    "@types/react": "^18.2.55",
-    "@types/react-dom": "^18.2.19",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.56.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "vite": "^5.1.1"
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "node-sass": "^9.0.0",
+    "postcss": "^8.4.32",
+    "postcss-import": "^15.1.0",
+    "prettier": "3.1.1",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "tailwindcss": "^3.3.6",
+    "vite": "^5.0.8",
+    "vite-plugin-mock": "2.9.8"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
