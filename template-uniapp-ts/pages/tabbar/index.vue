@@ -1,5 +1,5 @@
 <template>
-	<BasicLayout>Index</BasicLayout>
+	<BasicLayout><text class="text-sm dark:text-16 dark:text-red">Index</text></BasicLayout>
 </template>
 
 <script lang="ts" setup></script>

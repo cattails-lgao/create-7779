@@ -1,7 +1,3 @@
-declare module 'pinia' {
-	void defineStore();
-}
-
 declare namespace RequestNameSpace {
 	// 请求地址配置
 	interface UrlPathType {

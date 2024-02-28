@@ -1,5 +1,5 @@
 <template>
-	<view :class="['theme-' + appStore.theme, enabledOverflow ? 'page-overflow' : '']">
+	<view :class="[appStore.theme, enabledOverflow ? 'page-overflow' : '']">
 		<!-- 导航栏 -->
 		<uni-nav-bar
 			v-if="showNav"

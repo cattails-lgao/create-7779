@@ -1,5 +1,6 @@
 import App from './App';
 import * as Pinia from 'pinia';
+import 'virtual:uno.css'
 
 // #ifndef VUE3
 import Vue from 'vue';
