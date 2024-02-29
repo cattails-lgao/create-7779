@@ -1,5 +1,5 @@
 <template>
-	<BasicLayout><text class="text-sm">User</text></BasicLayout>
+	<BasicLayout><text class="text-sm dark:text-blue">User</text></BasicLayout>
 </template>
 
 <script lang="ts" setup></script>

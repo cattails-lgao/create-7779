@@ -20,6 +20,6 @@ export enum SMS_CODE_TMPL {
 }
 
 export enum THEME_TYPE {
-	Dark = 'dart',
+	Dark = 'dark',
 	Light = 'light'
 }
